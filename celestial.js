@@ -687,10 +687,10 @@
   
     // Helper functions -------------------------------------------------
     
-    function clip(coords) {
-      return projectionSetting.clip && d3.geo.distance(cfg.center, coords) > halfÏ€ ? 0 : 1;
-    }
-  
+     function clip(coords) {
+    return projectionSetting.clip && d3.geo.distance(cfg.center, coords) > halfπ ? 0 : 1;
+  }
+	  
     function setStyle(s) {
       context.fillStyle = s.fill || null;
       context.strokeStyle = s.stroke || null;
