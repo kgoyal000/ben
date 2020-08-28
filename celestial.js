@@ -1002,11 +1002,11 @@
     } else {
       raw = d3.geo[projection].raw;  
     }
-    
-    forward = function(Î», Ï†) {
-      var coords = raw(-Î», Ï†);
-      return coords;
-    };
+   
+forward = function(λ, φ) {
+    var coords = raw(-λ, φ);
+    return coords;
+  };
   
     forward.invert = function(x, y) {
       try {
